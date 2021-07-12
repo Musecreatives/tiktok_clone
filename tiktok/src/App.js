@@ -6,22 +6,24 @@ function App() {
   return (
     //We're using the BEM naming convention
     <div className="app">
-     <h1>
-       Let's build a Full-Stack 
-       MERN tiktok app
-     </h1>
-      
+        <div className="app_videos">
+
+     
       <Video /> 
       <Video />
+      <Video />
+      <Video />
+      <Video />
+
+      </div>
 
     {/* app container */}
-      {/* videos/ */}
+      {/* videos */}
       {/* <Video/> */}
       {/* <Video/> */}
       {/* <Video/> */}
       {/* <Video/> */}
       {/* <Video/> */}
-
     </div>
   );
 }
